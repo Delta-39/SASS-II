@@ -1,0 +1,18 @@
+.cajaFooter{
+    display: grid;
+    grid-template-rows: 70% 30%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+        .redes{
+            display: flex;
+            justify-content: flex-start;
+            align-content: center;
+            background-color: map-get($colores, $key:amarillo);
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+        }
+}
+
